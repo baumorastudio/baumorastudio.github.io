@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>baumora studio</title>
+  <meta name="description" content="baumora studio が開発するモバイルアプリの公式サイトです。">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .logo { font-size: 3rem; margin-bottom: 16px; }
+    h1 { font-size: 2rem; font-weight: 700; letter-spacing: 0.08em; color: #fff; }
+    p { margin-top: 12px; color: #94a3b8; font-size: 0.95rem; }
+    .apps { margin-top: 48px; display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+    .app-card {
+      background: #1e1e2e;
+      border: 1px solid #2d2d44;
+      border-radius: 12px;
+      padding: 24px 32px;
+      text-decoration: none;
+      color: #e2e8f0;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .app-card:hover { border-color: #7c3aed; transform: translateY(-2px); }
+    .app-card .icon { font-size: 2.4rem; margin-bottom: 8px; }
+    .app-card .name { font-weight: 700; font-size: 1rem; }
+    .app-card .sub { font-size: 0.8rem; color: #64748b; margin-top: 4px; }
+    footer { margin-top: 60px; color: #475569; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="logo">🎮</div>
+  <h1>baumora studio</h1>
+  <p>日常の小さなカタルシスをゲームに。</p>
+
+  <div class="apps">
+    <a href="/baumorastudio.github.io/otsurigaku/" class="app-card">
+      <div class="icon">👛</div>
+      <div class="name">おつり学</div>
+      <div class="sub">プライバシーポリシー・利用規約</div>
+    </a>
+  </div>
+
+  <footer>© 2026 baumora studio. All rights reserved.</footer>
+</body>
+</html>
